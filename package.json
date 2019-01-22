@@ -6,8 +6,12 @@
     "react-scripts": "2.1.3"
   },
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "qs": "^6.5.2",
+    "react": "^16.8.0-alpha.0",
+    "react-dom": "^16.8.0-alpha.0",
+    "semantic-ui-react": "^0.84.0"
   },
   "scripts": {
     "start": "react-scripts start",
