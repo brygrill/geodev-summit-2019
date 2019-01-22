@@ -1,3 +1,23 @@
+# Harrisburg GeoDev Summit 2019
+
+Authentication and Authorization with ArcGIS Online Oauth 2 and the ArcGIS REST API
+
+### Outline
+- Auth overview
+- OAuth2 overview
+- Registering AGOL App
+- Quick React primer
+- User login
+- Token exchange
+- ArcGIS REST API
+- OAuth with other providers
+
+
+### Useful Links
+- https://developers.arcgis.com/rest/users-groups-and-items/authentication.htm
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
