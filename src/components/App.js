@@ -18,7 +18,7 @@ const App = () => {
   const extractToken = () => {
     // drop # from string
     const hash = qs.parse(window.location.hash.slice(1));
-    console.log(hash);
+
     // extract token and username
     if (hash.access_token && hash.username) {
       setAuthed(true);
