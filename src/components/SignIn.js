@@ -13,7 +13,7 @@ const BtnWrap = styled.div`
 const SignIn = () => {
   return (
     <BtnWrap>
-      <Button color="red" size="large" href={oauthHref}>
+      <Button primary size="large" href={oauthHref}>
         Sign in with AGOL
       </Button>
     </BtnWrap>

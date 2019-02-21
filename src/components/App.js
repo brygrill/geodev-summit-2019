@@ -39,7 +39,7 @@ const App = () => {
     return <SignIn />;
   }
 
-  return <Items token={token} user={user} />;
+  return <Items token={token} username={user} />;
 };
 
 export default App;
