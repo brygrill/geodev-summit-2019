@@ -1,7 +1,7 @@
-import React from 'react';
-import { Button } from 'semantic-ui-react';
-import styled from 'styled-components';
-import { oauthHref } from '../utils';
+import React from "react";
+import { Button } from "semantic-ui-react";
+import styled from "styled-components";
+import { oauthHref } from "../utils";
 
 const BtnWrap = styled.div`
   display: flex;
@@ -13,7 +13,7 @@ const BtnWrap = styled.div`
 const SignIn = () => {
   return (
     <BtnWrap>
-      <Button primary size="large" href={oauthHref}>
+      <Button color="red" size="large" href={oauthHref}>
         Sign in with AGOL
       </Button>
     </BtnWrap>
