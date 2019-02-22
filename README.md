@@ -2,87 +2,30 @@
 
 Authentication and Authorization with ArcGIS Online Oauth 2 and the ArcGIS REST API
 
-### Outline
-- Auth overview
-- OAuth2 overview
-- Registering AGOL App
-- Quick React primer
-- User login
-- Token exchange
-- ArcGIS REST API
-- OAuth with other providers
+## Outline
+Everyone is welcome to fork the [CodeSandbox project](https://codesandbox.io/s/53m9km4lj4) and follow along, all you need is a browser and Github account. For future reference, [here is a step-by-step guide](https://link.medium.com/AdENWN1pwU) based on this presentation.
 
+### Auth/OAuth2
+Discuss the basics of authentication and authorization and the difference between the two. Review the OAuth2 authorization framework.
+
+### Register AGOL App
+We will learn how to register and configure an application within ArcGIS Online so we can implement OAuth. If you have an AGOL account, feel free to log in and create your own app.
+
+### Review React App
+To better understand the logic to prompt a user to sign in, we will review the structure of the sample [React](https://github.com/facebook/react) app.
+
+### User Login
+Review the structure of the authorize endpoint, add configuration from our AGOL app, and learn what happens when the endpoint URL is not structured properly.
+
+### Token exchange
+Using the [qs](https://github.com/ljharb/qs) package, we will extract the token from the URL returned by AGOL and save it for later use. We will also use the [`Window.location`](https://developer.mozilla.org/en-US/docs/Web/API/Window/location) object to reset the URL.
+
+### ArcGIS REST API Endpoints
+With our access token, we will learn how to use the [axios](https://github.com/axios/axios) package to request resources from the ArcGIS REST API.
 
 ### Useful Links
 - https://developers.arcgis.com/rest/users-groups-and-items/authentication.htm
-
----
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- https://developers.arcgis.com/rest/users-groups-and-items/quick-reference.htm
+- https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+- https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
+- https://medium.com/google-cloud/understanding-oauth2-and-building-a-basic-authorization-server-of-your-own-a-beginners-guide-cf7451a16f66
