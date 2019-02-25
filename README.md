@@ -23,6 +23,9 @@ Using the [qs](https://github.com/ljharb/qs) package, we will extract the token 
 ### ArcGIS REST API Endpoints
 With our access token, we will learn how to use the [axios](https://github.com/axios/axios) package to request resources from the ArcGIS REST API.
 
+### App Improvements
+Outline improvements we could make to the app, such as saving the token and paginated requests.
+
 ### Useful Links
 - https://developers.arcgis.com/rest/users-groups-and-items/authentication.htm
 - https://developers.arcgis.com/rest/users-groups-and-items/quick-reference.htm
