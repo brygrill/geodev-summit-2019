@@ -3,7 +3,9 @@
 Authentication and Authorization with ArcGIS Online Oauth 2 and the ArcGIS REST API
 
 ## Outline
-Everyone is welcome to fork the [CodeSandbox project](https://codesandbox.io/s/53m9km4lj4) and follow along, all you need is a browser and Github account. For future reference, [here is a step-by-step guide](https://link.medium.com/AdENWN1pwU) based on this presentation.
+Everyone is welcome to fork the [CodeSandbox project](https://codesandbox.io/s/53m9km4lj4) and follow along, all you need is a browser and Github account. FYI, for the redirect to work, you need to open the app in a new window.  
+
+For future reference, [here is a step-by-step guide](https://link.medium.com/AdENWN1pwU) based on this presentation.
 
 ### Auth/OAuth2
 Discuss the basics of authentication and authorization and the difference between the two. Review the OAuth2 authorization framework.
