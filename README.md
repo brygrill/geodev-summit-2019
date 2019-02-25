@@ -26,7 +26,7 @@ With our access token, we will learn how to use the [axios](https://github.com/a
 ### App Improvements
 Outline improvements we could make to the app, such as saving the token and paginated requests.
 
-### Useful Links
+## Useful Links
 - https://developers.arcgis.com/rest/users-groups-and-items/authentication.htm
 - https://developers.arcgis.com/rest/users-groups-and-items/quick-reference.htm
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
