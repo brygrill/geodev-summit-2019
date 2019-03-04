@@ -34,3 +34,12 @@ Outline improvements we could make to the app, such as saving the token and pagi
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
 - https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
 - https://medium.com/google-cloud/understanding-oauth2-and-building-a-basic-authorization-server-of-your-own-a-beginners-guide-cf7451a16f66
+
+## Getting Started
+```bash
+# install deps
+$ npm install
+
+# start app
+$ npm start
+```
